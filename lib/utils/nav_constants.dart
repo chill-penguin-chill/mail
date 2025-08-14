@@ -1,7 +1,7 @@
 import 'package:ab_shared/blocs/auth/auth.bloc.dart';
+import 'package:ab_shared/components/app/ab_navbar.dart';
 import 'package:mail/i18n/strings.g.dart';
 import 'package:mail/pages/more/more.dart';
-import 'package:ab_shared/components/app/ab_navbar.dart';
 import 'package:mail/services/sync.service.dart';
 import 'package:ab_shared/utils/shortcuts.dart';
 import 'package:flutter/cupertino.dart';
