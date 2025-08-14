@@ -35,8 +35,8 @@ class FcmService {
     // Windows settings
     const WindowsInitializationSettings windowsInitializationSettings =
       WindowsInitializationSettings(
-        appName: "Atomic Task",
-        appUserModelId: "AtomicBlend.Task",
+        appName: "Atomic Mail",
+        appUserModelId: "AtomicBlend.Mail",
         guid: "7d39570f-4bf8-428f-95e5-d37ada5d96ba",
     );
 

@@ -1,10 +1,10 @@
 [Setup]
-AppName=AtomicTask
+AppName=AtomicMail
 AppVersion=0.7.6
-DefaultDirName={pf}\AtomicTask
-DefaultGroupName=AtomicTask
+DefaultDirName={pf}\AtomicMail
+DefaultGroupName=AtomicMail
 OutputDir=output
-OutputBaseFilename=AtomicTaskInstaller
+OutputBaseFilename=AtomicMailInstaller
 Compression=lzma
 SolidCompression=yes
 
@@ -12,5 +12,5 @@ SolidCompression=yes
 Source: "build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
-Name: "{group}\AtomicTask"; Filename: "{app}\app.exe"
-Name: "{group}\Uninstall AtomicTask"; Filename: "{uninstallexe}"
+Name: "{group}\AtomicMail"; Filename: "{app}\app.exe"
+Name: "{group}\Uninstall AtomicMail"; Filename: "{uninstallexe}"

@@ -1,11 +1,11 @@
 flutter_app:
-  command: atomic-task
+  command: atomic-mail
   arch: x64
   parent: /usr/local/lib
   nonInteractive: false
 
 control:
-  Package: atomic-task
+  Package: atomic-mail
   Version: 0.7.2
   Architecture: amd64
   Priority: optional
