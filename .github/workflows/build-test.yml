@@ -28,6 +28,9 @@ jobs:
           channel: "stable"
           cache: true
 
+      - name: Install Dependencies
+        run: flutter pub get
+
       - name: Check for Local Path Dependencies
         run: |
           echo "Checking pubspec.yaml for local path dependencies..."
@@ -41,9 +44,6 @@ jobs:
           else
             echo "✅ No local path dependencies found in pubspec.yaml"
           fi
-          
-      - name: Install Dependencies
-        run: flutter pub get
 
       - name: Lint
         run: dart analyze --fatal-infos
