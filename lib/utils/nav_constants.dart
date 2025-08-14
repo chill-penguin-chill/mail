@@ -1,8 +1,8 @@
 import 'package:ab_shared/blocs/auth/auth.bloc.dart';
 import 'package:ab_shared/components/app/bottom_navigation.dart';
-import 'package:notes/i18n/strings.g.dart';
-import 'package:notes/pages/more/more.dart';
-import 'package:notes/services/sync.service.dart';
+import 'package:template/i18n/strings.g.dart';
+import 'package:template/pages/more/more.dart';
+import 'package:template/services/sync.service.dart';
 import 'package:ab_shared/utils/shortcuts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:ab_shared/utils/constants.dart';

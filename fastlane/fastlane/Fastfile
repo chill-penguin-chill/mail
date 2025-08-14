@@ -34,7 +34,7 @@ platform :ios do
   lane :upload_beta do
      upload_to_testflight(
      api_key_path: "/Users/brandonguigo/appstore_connect_api_key.json",
-     app_identifier: "fr.atomicblend.notes",
+     app_identifier: "fr.atomicblend.template",
      ipa: "../build/ios/ipa/Atomic Notes.ipa",
      distribute_external: true,
      notify_external_testers: true,
@@ -73,7 +73,7 @@ platform :android do
 
     lane :upload_beta do
         upload_to_play_store(
-            package_name: "fr.atomicblend.notes",
+            package_name: "fr.atomicblend.template",
             track: "alpha",
             json_key: "/Users/brandonguigo/playstore_key.json",
             aab: "../build/notes/outputs/bundle/prodRelease/notes-prod-release.aab",

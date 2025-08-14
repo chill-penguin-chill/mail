@@ -1,7 +1,7 @@
 import 'package:ab_shared/blocs/auth/auth.bloc.dart';
 import 'package:ab_shared/components/buttons/icon_text_button.dart';
-import 'package:notes/i18n/strings.g.dart';
-import 'package:notes/pages/settings/screens/app_settings.dart';
+import 'package:template/i18n/strings.g.dart';
+import 'package:template/pages/settings/screens/app_settings.dart';
 import 'package:ab_shared/utils/constants.dart';
 import 'package:ab_shared/utils/shortcuts.dart';
 import 'package:flutter/cupertino.dart';

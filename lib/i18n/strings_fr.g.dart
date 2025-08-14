@@ -41,7 +41,6 @@ class TranslationsFr implements Translations {
 	@override late final _TranslationsUnderConstructionFr under_construction = _TranslationsUnderConstructionFr._(_root);
 	@override late final _TranslationsMoreFr more = _TranslationsMoreFr._(_root);
 	@override late final _TranslationsActionsFr actions = _TranslationsActionsFr._(_root);
-	@override late final _TranslationsDatesFr dates = _TranslationsDatesFr._(_root);
 }
 
 // Path: settings
@@ -99,17 +98,6 @@ class _TranslationsActionsFr implements TranslationsActionsEn {
 	@override String get delete => 'Supprimer';
 }
 
-// Path: dates
-class _TranslationsDatesFr implements TranslationsDatesEn {
-	_TranslationsDatesFr._(this._root);
-
-	final TranslationsFr _root; // ignore: unused_field
-
-	// Translations
-	@override String get today => 'Aujourd\'hui';
-	@override String get tomorrow => 'Demain';
-}
-
 // Path: settings.app_settings
 class _TranslationsSettingsAppSettingsFr implements TranslationsSettingsAppSettingsEn {
 	_TranslationsSettingsAppSettingsFr._(this._root);
@@ -159,8 +147,6 @@ extension on TranslationsFr {
 			case 'actions.save': return 'Enregistrer';
 			case 'actions.cancel': return 'Annuler';
 			case 'actions.delete': return 'Supprimer';
-			case 'dates.today': return 'Aujourd\'hui';
-			case 'dates.tomorrow': return 'Demain';
 			default: return null;
 		}
 	}

@@ -14,7 +14,7 @@ class AppState with _$AppState {
       Map<String, bool>? showcasePageStatus}) = _AppState;
 
   factory AppState.initial() => _AppState(
-        primaryMenuSelectedKey: 'my_notes',
+        primaryMenuSelectedKey: 'page_1',
         secondaryMenuSelectedKey: '',
       );
 

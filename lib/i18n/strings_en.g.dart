@@ -53,8 +53,13 @@ class TranslationsSettingsEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+
+	/// en: 'Settings'
 	String get title => 'Settings';
+
 	late final TranslationsSettingsAppSettingsEn app_settings = TranslationsSettingsAppSettingsEn._(_root);
+
+	/// en: 'Logout'
 	String get logout => 'Logout';
 }
 
@@ -75,7 +80,11 @@ class TranslationsUnderConstructionEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+
+	/// en: 'We're working on it!'
 	String get title => 'We\'re working on it!';
+
+	/// en: 'This feature is not yet available, but we're working hard to bring it to you soon. Stay tuned!'
 	String get description => 'This feature is not yet available, but we\'re working hard to bring it to you soon.\n\nStay tuned!';
 }
 
@@ -86,6 +95,8 @@ class TranslationsMoreEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+
+	/// en: 'More'
 	String get title => 'More';
 }
 
@@ -96,6 +107,8 @@ class TranslationsActionsEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+
+	/// en: 'Delete'
 	String get delete => 'Delete';
 }
 
@@ -106,7 +119,10 @@ class TranslationsSettingsAppSettingsEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+
+	/// en: 'App Settings'
 	String get title => 'App Settings';
+
 	late final TranslationsSettingsAppSettingsSelfHostedUrlEn selfHostedUrl = TranslationsSettingsAppSettingsSelfHostedUrlEn._(_root);
 }
 
@@ -117,6 +133,8 @@ class TranslationsAccountSectionsEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+
+	/// en: 'Account'
 	String get account => 'Account';
 }
 
@@ -127,7 +145,11 @@ class TranslationsSettingsAppSettingsSelfHostedUrlEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+
+	/// en: 'Self-Hosted URL'
 	String get title => 'Self-Hosted URL';
+
+	/// en: 'Not set'
 	String get not_set => 'Not set';
 }
 

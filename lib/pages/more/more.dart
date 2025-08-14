@@ -1,15 +1,15 @@
 import 'package:ab_shared/components/buttons/icon_text_button.dart';
 import 'package:ab_shared/components/widgets/elevated_container.dart';
-import 'package:notes/i18n/strings.g.dart';
+import 'package:template/i18n/strings.g.dart';
 import 'package:ab_shared/pages/account/account.dart';
-import 'package:notes/main.dart';
-import 'package:notes/pages/settings/settings.dart';
+import 'package:template/main.dart';
+import 'package:template/pages/settings/settings.dart';
 import 'package:ab_shared/utils/constants.dart';
 import 'package:ab_shared/utils/shortcuts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:notes/utils/nav_constants.dart';
+import 'package:template/utils/nav_constants.dart';
 
 class MoreApps extends StatefulWidget {
   const MoreApps({super.key});

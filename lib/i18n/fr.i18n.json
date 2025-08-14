@@ -26,9 +26,5 @@
     "save": "Enregistrer",
     "cancel": "Annuler",
     "delete": "Supprimer"
-  },
-  "dates": {
-    "today": "Aujourd'hui",
-    "tomorrow": "Demain"
   }
 }

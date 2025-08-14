@@ -168,5 +168,4 @@ app.*.symbols
 /android/app/.cxx/RelWithDebInfo/1p57501n/x86/configure_fingerprint.bin
 /fastlane/fastlane/report.xml
 /macos/DerivedData
-/macos_dmg/AtomicNotes-.dmg
-/macos_dmg/AtomicNotes-latest.dmg
+/macos_dmg/*.dmg

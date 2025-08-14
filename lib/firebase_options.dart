@@ -1,7 +1,7 @@
 // ignore_for_file: uri_does_not_exist
 // firebase_options.dart
 
-import 'package:notes/firebase_options_prod.dart' as prod;
+import 'package:template/firebase_options_prod.dart' as prod;
 
 import 'firebase_options_dev.dart' as dev;
 

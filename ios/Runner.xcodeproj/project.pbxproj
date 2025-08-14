@@ -518,7 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
 				BUNDLE_DISPLAY_NAME = "Atomic Task - Dev";
-				BUNDLE_NAME = "Atomic Task - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -572,7 +572,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.atomicblend.notes-dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.atomicblend.template-dev";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -588,7 +588,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
 				BUNDLE_DISPLAY_NAME = "Atomic Task - Dev";
-				BUNDLE_NAME = "Atomic Task - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -642,7 +642,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_DISPLAY_NAME = "Atomic Notes - Dev";
-				BUNDLE_NAME = "Atomic Notes - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -657,7 +657,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.notes;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -729,7 +729,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
 				BUNDLE_DISPLAY_NAME = "Atomic Task";
-				BUNDLE_NAME = "Atomic Task";
+				BUNDLE_NAME = "Atomic Template";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -783,7 +783,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.notes;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.template;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -801,7 +801,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
 				BUNDLE_DISPLAY_NAME = "Atomic Task - Dev";
-				BUNDLE_NAME = "Atomic Task - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -862,7 +862,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.atomicblend.notes-dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.atomicblend.template-dev";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -877,8 +877,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
-				BUNDLE_DISPLAY_NAME = "Atomic Task";
-				BUNDLE_NAME = "Atomic Task";
+				BUNDLE_DISPLAY_NAME = "Atomic Template";
+				BUNDLE_NAME = "Atomic Template";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -932,7 +932,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.notes;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.template;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -951,8 +951,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
-				BUNDLE_DISPLAY_NAME = "Atomic Task - Dev";
-				BUNDLE_NAME = "Atomic Task - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1006,7 +1006,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.atomicblend.notes-dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.atomicblend.template-dev";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1025,8 +1025,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
-				BUNDLE_DISPLAY_NAME = "Atomic Task";
-				BUNDLE_NAME = "Atomic Task";
+				BUNDLE_DISPLAY_NAME = "Atomic Template";
+				BUNDLE_NAME = "Atomic Template";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1087,7 +1087,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.notes;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.template;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1100,8 +1100,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
-				BUNDLE_DISPLAY_NAME = "Atomic Task - Dev";
-				BUNDLE_NAME = "Atomic Task - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1159,8 +1159,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = AppIcon;
-				BUNDLE_DISPLAY_NAME = "Atomic Task - Dev";
-				BUNDLE_NAME = "Atomic Task - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1215,8 +1215,8 @@
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_DISPLAY_NAME = "Atomic Notes - Dev";
-				BUNDLE_NAME = "Atomic Notes - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1231,7 +1231,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.notes;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1251,8 +1251,8 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_DISPLAY_NAME = "Atomic Notes - Dev";
-				BUNDLE_NAME = "Atomic Notes - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1267,7 +1267,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.notes;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.atomicblend.template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1285,8 +1285,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0BFF526AC94F7831A18F498 /* Pods-Runner.debug-dev.xcconfig */;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "Atomic Notes - Dev";
-				BUNDLE_NAME = "Atomic Notes - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				DEVELOPMENT_TEAM = GJF9Q39UD7;
 				INFOPLIST_KEY_CFBundleDisplayName = LifeOS;
@@ -1304,9 +1304,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 00256AD14A38CAD3146F41D1 /* Pods-Runner.profile-dev.xcconfig */;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "Atomic Notes - Dev";
-				BUNDLE_NAME = "Atomic Notes - Dev";
-				"BUNDLE_NAME[arch=*]" = "Atomic Notes - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
+				"BUNDLE_NAME[arch=*]" = "Atomic Template - Dev";
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				DEVELOPMENT_TEAM = GJF9Q39UD7;
 				INFOPLIST_KEY_CFBundleDisplayName = LifeOS;
@@ -1324,8 +1324,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF65796E03BF28C4B9F67119 /* Pods-Runner.release-dev.xcconfig */;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "Atomic Notes - Dev";
-				BUNDLE_NAME = "Atomic Notes - Dev";
+				BUNDLE_DISPLAY_NAME = "Atomic Template - Dev";
+				BUNDLE_NAME = "Atomic Template - Dev";
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				DEVELOPMENT_TEAM = GJF9Q39UD7;
 				INFOPLIST_KEY_CFBundleDisplayName = LifeOS;
@@ -1343,8 +1343,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 696A6D7AD4B343246B53C131 /* Pods-Runner.debug-prod.xcconfig */;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "Atomic Notes";
-				BUNDLE_NAME = "Atomic Notes";
+				BUNDLE_DISPLAY_NAME = "Atomic Template";
+				BUNDLE_NAME = "Atomic Template";
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				DEVELOPMENT_TEAM = GJF9Q39UD7;
@@ -1363,9 +1363,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40CCF4EE4F9FC0CDBF6EFF05 /* Pods-Runner.profile-prod.xcconfig */;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "Atomic Notes";
-				BUNDLE_NAME = "Atomic Notes";
-				"BUNDLE_NAME[arch=*]" = "Atomic Notes";
+				BUNDLE_DISPLAY_NAME = "Atomic Template";
+				BUNDLE_NAME = "Atomic Template";
+				"BUNDLE_NAME[arch=*]" = "Atomic Template";
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				DEVELOPMENT_TEAM = GJF9Q39UD7;
 				INFOPLIST_KEY_CFBundleDisplayName = LifeOS;
@@ -1383,8 +1383,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBFAA2A63B17760D15524C0C /* Pods-Runner.release-prod.xcconfig */;
 			buildSettings = {
-				BUNDLE_DISPLAY_NAME = "Atomic Notes";
-				BUNDLE_NAME = "Atomic Notes";
+				BUNDLE_DISPLAY_NAME = "Atomic Template";
+				BUNDLE_NAME = "Atomic Template";
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				DEVELOPMENT_TEAM = GJF9Q39UD7;
 				INFOPLIST_KEY_CFBundleDisplayName = LifeOS;

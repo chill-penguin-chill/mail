@@ -1,7 +1,7 @@
 import 'package:ab_shared/flavors.dart';
-import 'package:notes/i18n/strings.g.dart';
-import 'package:notes/main.dart';
-import 'package:notes/pages/app_layout.dart';
+import 'package:template/i18n/strings.g.dart';
+import 'package:template/main.dart';
+import 'package:template/pages/app_layout.dart';
 import 'package:ab_shared/utils/app_theme.dart';
 import 'package:fleather/l10n/fleather_localizations.g.dart';
 import 'package:flutter/foundation.dart';
