@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "title": "Settings",
+    "app_settings": {
+      "title": "App Settings",
+      "selfHostedUrl": {
+        "title": "Self-Hosted URL",
+        "not_set": "Not set"
+      }
+    },
+    "logout": "Logout"
+  },
+  "account": {
+    "sections": {
+      "account": "Account"
+    }
+  },
+  "under_construction": {
+    "title": "We're working on it!",
+    "description": "This feature is not yet available, but we're working hard to bring it to you soon.\n\nStay tuned!"
+  },
+  "more": {
+    "title": "More"
+  },
+  "actions": {
+    "delete": "Delete"
+  }
+}

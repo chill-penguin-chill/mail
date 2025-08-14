@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "title": "Paramètres",
+    "app_settings": {
+      "title": "Paramètres de l'application",
+      "selfHostedUrl": {
+        "title": "URL auto-hébergée",
+        "not_set": "Non défini"
+      }
+    },
+    "logout": "Déconnexion"
+  },
+  "account": {
+    "sections": {
+      "account": "Compte"
+    }
+  },
+  "under_construction": {
+    "title": "On travaille dessus !",
+    "description": "Cette fonctionnalité est en cours de développement.\n\nRevenez bientôt pour découvrir les dernières mises à jour !"
+  },
+  "more": {
+    "title": "Plus"
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+  "dates": {
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain"
+  }
+}
