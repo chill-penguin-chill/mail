@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:template/blocs/app/app.bloc.dart';
+import 'package:mail/blocs/app/app.bloc.dart';
 import 'package:ab_shared/blocs/auth/auth.bloc.dart';
 import 'package:ab_shared/components/app/bottom_navigation.dart';
 import 'package:ab_shared/components/responsive_stateful_widget.dart';
@@ -16,8 +16,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_side_menu/flutter_side_menu.dart';
 import 'package:macos_window_utils/widgets/titlebar_safe_area.dart';
-import 'package:template/main.dart';
-import 'package:template/utils/nav_constants.dart';
+import 'package:mail/main.dart';
+import 'package:mail/utils/nav_constants.dart';
 
 class AppLayout extends ResponsiveStatefulWidget {
   const AppLayout({super.key});

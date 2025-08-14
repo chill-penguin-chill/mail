@@ -1,7 +1,7 @@
 import 'package:ab_shared/components/buttons/icon_text_button.dart';
 import 'package:ab_shared/components/modals/edit_self_hosted_url_modal.dart';
-import 'package:template/i18n/strings.g.dart';
-import 'package:template/main.dart';
+import 'package:mail/i18n/strings.g.dart';
+import 'package:mail/main.dart';
 import 'package:ab_shared/utils/constants.dart';
 import 'package:ab_shared/utils/shortcuts.dart';
 import 'package:flutter/material.dart';
