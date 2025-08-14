@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:ab_shared/components/app/ab_navbar.dart';
 import 'package:mail/blocs/app/app.bloc.dart';
 import 'package:ab_shared/blocs/auth/auth.bloc.dart';
 import 'package:ab_shared/components/app/bottom_navigation.dart';
@@ -118,29 +119,42 @@ class AppLayoutState extends ResponsiveState<AppLayout> {
             direction: Axis.horizontal,
             children: [
               Expanded(
-                child: Scaffold(
-                  // if there's secondary, show the secondary item appBar
-                  // else show the primary appBar
-                  appBar: appBar,
-                  backgroundColor: getTheme(context).surface,
-                  body: body,
-                  bottomNavigationBar: BottomNavigation(
-                    onPrimaryMenuSelected: (key) {
-                      context.read<AppCubit>().changePrimaryMenuSelectedKey(
-                            key: key,
-                          );
-                    },
-                    onSecondaryMenuSelected: (key) {
-                      context.read<AppCubit>().changeSecondaryMenuSelectedKey(
-                            key: key,
-                          );
-                    },
-                    destinations: $navConstants
-                        .primaryMenuItems(context)
-                        .take(5)
-                        .toList(),
-                    primaryMenuKey: appState.primaryMenuSelectedKey,
-                  ),
+                child: Stack(
+                  children: [
+                    Scaffold(
+                      // if there's secondary, show the secondary item appBar
+                      // else show the primary appBar
+                      appBar: appBar,
+                      backgroundColor: getTheme(context).surface,
+                      body: body,
+                    ),
+                    Positioned(
+                      bottom: $constants.insets.lg,
+                      left: 0,
+                      right: 0,
+                      child: Padding(
+                        padding: EdgeInsets.symmetric(horizontal: $constants.insets.md),
+                        child: ABNavbar(
+                          backgroundColor: getTheme(context).surfaceContainer,
+                        onPrimaryMenuSelected: (key) {
+                          context.read<AppCubit>().changePrimaryMenuSelectedKey(
+                                key: key,
+                              );
+                        },
+                        onSecondaryMenuSelected: (key) {
+                          context.read<AppCubit>().changeSecondaryMenuSelectedKey(
+                                key: key,
+                              );
+                        },
+                        destinations: $navConstants
+                            .primaryMenuItems(context)
+                            .take(5)
+                            .toList(),
+                        primaryMenuKey: appState.primaryMenuSelectedKey,
+                                          ),
+                      ),
+                    ), 
+                  ],
                 ),
               )
             ],
@@ -308,8 +322,8 @@ class AppLayoutState extends ResponsiveState<AppLayout> {
                                                       MainAxisSize.min,
                                                   children: [
                                                     Container(
-                                                      width: 50,
-                                                      height: 50,
+                                                      width: 40,
+                                                      height: 40,
                                                       decoration:
                                                           BoxDecoration(
                                                         border: appState
@@ -374,10 +388,10 @@ class AppLayoutState extends ResponsiveState<AppLayout> {
                                                               ),
                                                               child: isApple(
                                                                       context)
-                                                                  ? item
-                                                                      .cupertinoIcon
-                                                                  : item
-                                                                      .icon),
+                                                                  ? Icon(item
+                                                                      .cupertinoIcon)
+                                                                  : Icon(item
+                                                                      .icon)),
                                                     ),
                                                   ],
                                                 ),
@@ -531,9 +545,10 @@ class AppLayoutState extends ResponsiveState<AppLayout> {
                                                             ),
                                                             child: isApple(
                                                                     context)
-                                                                ? item
-                                                                    .cupertinoIcon
-                                                                : item.icon),
+                                                                ? Icon(item
+                                                                    .cupertinoIcon)
+                                                                : Icon(item
+                                                                    .icon)),
                                                   ),
                                                 ],
                                               ),

@@ -43,14 +43,8 @@ class NavConstants {
   List<NavigationItem> primaryMenuItems(BuildContext context) => [
         NavigationItem(
           key: const Key("page_1"),
-          icon: const Icon(
-            LineAwesome.file,
-            size: 25,
-          ),
-          cupertinoIcon: const Icon(
-            CupertinoIcons.doc,
-            size: 25,
-          ),
+          icon: LineAwesome.file,
+          cupertinoIcon: CupertinoIcons.doc,
           label: "Page 1",
           body: Container(),
           appBar: AppBar(
@@ -72,14 +66,8 @@ class NavConstants {
         ),
         NavigationItem(
           key: const Key("page_2"),
-          icon: const Icon(
-            LineAwesome.search_solid,
-            size: 25,
-          ),
-          cupertinoIcon: const Icon(
-            CupertinoIcons.search,
-            size: 25,
-          ),
+          icon: LineAwesome.search_solid,
+          cupertinoIcon: CupertinoIcons.search,
           label: "Page 2",
           body: Container(),
           appBar: AppBar(
@@ -101,14 +89,8 @@ class NavConstants {
         ),
         NavigationItem(
           key: const Key("page_3"),
-          icon: Icon(
-            LineAwesome.plus_solid,
-            color: getTheme(context).tertiary,
-          ),
-          cupertinoIcon: Icon(
-            CupertinoIcons.plus_circle_fill,
-            color: getTheme(context).secondary,
-          ),
+          icon: LineAwesome.plus_solid,
+          cupertinoIcon: CupertinoIcons.plus_circle_fill,
           label: "Page 3",
           color: getTheme(context).secondary,
           onTap: (index) {
@@ -135,19 +117,13 @@ class NavConstants {
         ),
         NavigationItem(
           key: const Key("page_4"),
-          icon: const Icon(
-            LineAwesome.filter_solid,
-            size: 25,
-          ),
-          cupertinoIcon: const Icon(
-            CupertinoIcons.square_fill_line_vertical_square,
-            size: 25,
-          ),
+          icon: LineAwesome.filter_solid,
+          cupertinoIcon: CupertinoIcons.square_fill_line_vertical_square,
           label: "Page 4",
           body: Container(),
           appBar: AppBar(
               key: const Key("page_4"),
-              backgroundColor: getTheme(context).surface,
+              backgroundColor: getTheme(context).surfaceContainer,
               leading: Container(),
               title: Text(
                 "Page 4",
@@ -163,14 +139,8 @@ class NavConstants {
         ),
         NavigationItem(
           key: const Key("more"),
-          icon: const Icon(
-            CupertinoIcons.ellipsis_circle_fill,
-            size: 25,
-          ),
-          cupertinoIcon: const Icon(
-            CupertinoIcons.ellipsis_circle_fill,
-            size: 25,
-          ),
+          icon: CupertinoIcons.ellipsis_circle_fill,
+          cupertinoIcon: CupertinoIcons.ellipsis_circle_fill,
           label: context.t.more.title,
           body: const MoreApps(),
           appBar: AppBar(
