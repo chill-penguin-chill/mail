@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:ab_shared/components/app/ab_navbar.dart';
 import 'package:mail/blocs/app/app.bloc.dart';
 import 'package:ab_shared/blocs/auth/auth.bloc.dart';
-import 'package:ab_shared/components/app/bottom_navigation.dart';
 import 'package:ab_shared/components/responsive_stateful_widget.dart';
 import 'package:ab_shared/components/widgets/elevated_container.dart';
 import 'package:ab_shared/pages/auth/login_or_register_modal.dart';
